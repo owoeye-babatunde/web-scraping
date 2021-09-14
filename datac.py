@@ -33,6 +33,8 @@ class DC_Chapter_Spider(scrapy.Spider):
                                   callback = self.parse_pages)
             
     
+    
+    
     def parse_pages(self, response): 
         # Direct to the course title text
         crs_title = response.xpath('//h1[contains(@class,"title)]/text()')
