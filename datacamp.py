@@ -6,6 +6,7 @@ Created on Thu Aug 19 11:02:29 2021
 """
 
 import scrapy
+
 from scrapy.crawler import CrawlerProcess
 
 # Actual spider
